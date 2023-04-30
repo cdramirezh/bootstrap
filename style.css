@@ -1,9 +1,17 @@
-.header img {
-	width: 80px;
-}
-
 .text-platzi {
 	color: #97c93e;
+}
+
+.btn-platzi {
+	background-color: #97c93e;
+}
+
+.btn-platzi:hover {
+	background-color: #7faa34;
+}
+
+.header img {
+	width: 80px;
 }
 
 footer {
