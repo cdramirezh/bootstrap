@@ -76,10 +76,6 @@ footer {
 			@extend .col-12;
 			@extend .col-lg-6;
 			@extend .px-0;
-
-			img {
-				max-width: 100%;
-			}
 		}
 		.place-time__description {
 			@extend .col-12;
