@@ -46,7 +46,11 @@ footer {
 }
 
 .speakers {
+	@extend .gy-4;
+	
 	&__title {
+		// mb-n3
+		margin-bottom: -1.5 * $spacer; 
 		@extend .col-12;
 		@extend .text-center;
 		@extend .text-uppercase;
@@ -55,10 +59,8 @@ footer {
 		@extend .col-12;
 		@extend .col-md-6;
 		@extend .col-lg-4;
+		.badges {
+			text-align: end;
+		}
 	}
 }
-
-/* .card-title {
-	overflow: hidden;
-	
-} */

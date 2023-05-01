@@ -983,7 +983,8 @@ progress {
 }
 
 .g-4,
-.gy-4 {
+.gy-4,
+.speakers {
   --bs-gutter-y: 1.5rem;
 }
 
@@ -11895,9 +11896,11 @@ footer {
   height: 100%;
 }
 
-/* .card-title {
-	overflow: hidden;
-
-} */
+.speakers__title {
+  margin-bottom: -1.5rem;
+}
+.speakers__speaker .badges {
+  text-align: end;
+}
 
 /*# sourceMappingURL=style.css.map */
