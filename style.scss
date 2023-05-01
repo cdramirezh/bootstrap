@@ -64,3 +64,32 @@ footer {
 		}
 	}
 }
+
+.place-time {
+	@extend .px-0;
+	@extend .text-bg-dark;
+
+	.row {
+		@extend .mx-0;
+
+		picture {
+			@extend .col-12;
+			@extend .col-lg-6;
+			@extend .px-0;
+
+			img {
+				max-width: 100%;
+			}
+		}
+		.place-time__description {
+			@extend .col-12;
+			@extend .col-lg-6;
+			@extend .py-4;
+			@extend .px-2;
+
+			h2 {
+				@extend .mt-2;
+			}
+		}
+	}
+}
