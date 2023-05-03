@@ -47,6 +47,17 @@ footer {
 	height: 100%;
 }
 
+.overlay__content {
+	@extend .col-md-6;
+	@extend .offset-md-6;
+	@extend .text-center ;
+	@extend .text-md-end ;
+	@extend .d-flex ;
+	@extend .flex-column ;
+	@extend .align-items-center;
+	@extend .gap-3;
+}
+
 .speakers {
 	@extend .gy-4;
 

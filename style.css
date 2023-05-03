@@ -1223,7 +1223,7 @@ progress {
     flex: 0 0 auto;
     width: 41.66666667%;
   }
-  .col-md-6, .speakers__speaker {
+  .col-md-6, .speakers__speaker, .overlay__content {
     flex: 0 0 auto;
     width: 50%;
   }
@@ -1269,7 +1269,7 @@ progress {
   .offset-md-5 {
     margin-left: 41.66666667%;
   }
-  .offset-md-6 {
+  .offset-md-6, .overlay__content {
     margin-left: 50%;
   }
   .offset-md-7 {
@@ -7236,7 +7236,7 @@ textarea.form-control-lg {
   display: table-cell !important;
 }
 
-.d-flex {
+.d-flex, .overlay__content {
   display: flex !important;
 }
 
@@ -7610,7 +7610,7 @@ textarea.form-control-lg {
   flex-direction: row !important;
 }
 
-.flex-column {
+.flex-column, .overlay__content {
   flex-direction: column !important;
 }
 
@@ -7682,7 +7682,7 @@ textarea.form-control-lg {
   align-items: flex-end !important;
 }
 
-.align-items-center {
+.align-items-center, .overlay__content {
   align-items: center !important;
 }
 
@@ -8176,7 +8176,7 @@ textarea.form-control-lg {
   gap: 0.5rem !important;
 }
 
-.gap-3 {
+.gap-3, .overlay__content {
   gap: 1rem !important;
 }
 
@@ -8324,7 +8324,7 @@ textarea.form-control-lg {
   text-align: right !important;
 }
 
-.text-center, .speakers__title {
+.text-center, .speakers__title, .overlay__content {
   text-align: center !important;
 }
 
@@ -10145,7 +10145,7 @@ textarea.form-control-lg {
   .text-md-start {
     text-align: left !important;
   }
-  .text-md-end {
+  .text-md-end, .overlay__content {
     text-align: right !important;
   }
   .text-md-center {
