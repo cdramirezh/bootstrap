@@ -8,8 +8,8 @@
 	<link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
-	<nav class="header navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="57">
+	<nav id="navbar" class="header navbar navbar-expand-lg bg-dark sticky-top" data-bs-theme="dark">
 		<div class="container">
 			<a class="navbar-brand" href="#">
 				<img src="https://placekitten.com/300/100" alt="logo" />
@@ -22,18 +22,17 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">La conferencia</a>
+						<a class="nav-link" href="#main">La conferencia</a>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						<a class="nav-link dropdown-toggle" href="#speakers" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 							Los oradores
 						</a>
 						<ul class="dropdown-menu">
 							<li><a class="dropdown-item" href="#">Freddy Waifu</a></li>
 							<li><a class="dropdown-item" href="#">Christian tocayo</a></li>
+							<li><a class="dropdown-item" href="#">Sasha Lifszyc</a></li>
+							<li><a class="dropdown-item" href="#">Yo mero</a></li>
 							<li>
 								<hr class="dropdown-divider" />
 							</li>
@@ -43,7 +42,10 @@
 						</ul>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link disabled">Place and date</a>
+						<a class="nav-link" href="#place-time">Place and date</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#become-speaker">Conviértete en orador</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link text-platzi" href="#">Buy tickets</a>
@@ -53,7 +55,7 @@
 		</div>
 	</nav>
 
-	<main class="container mb-4 d-grid gap-4">
+	<main id="main" class="container mb-4 d-grid gap-4">
 
 		<section class="row">
 			<div id="carouselExample" class="carousel slide"  data-bs-ride="carousel" data-bs-pause="false">
@@ -85,7 +87,7 @@
 			</div>
 		</section>
 
-		<section class="speakers row">
+		<section id="speakers" class="speakers row">
 
 			<div class="speakers__title">
 				<small>Conoce a los</small>
@@ -153,7 +155,7 @@
 
 	</main>
 
-	<section class="place-time container-fluid">
+	<section id="place-time" class="place-time container-fluid">
 		<div class="row">
 			<picture>
 				<img class="img-fluid" src="https://placekitten.com/1500/1500" alt="Gato de Honolulou">
@@ -173,7 +175,7 @@
 		</div>
 	</section>
 
-	<section class="container py-3">
+	<section id="become-speaker" class="container py-3">
 		<div class="row">
 			<div class="col text-uppercase text-center">
 				<small>Conviértete en un</small>
