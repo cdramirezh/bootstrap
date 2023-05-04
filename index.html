@@ -79,7 +79,8 @@
 										nuestra comunidad para compartir el conocimiento y experiencia. Ven a conocer a miembros del Team
 										Gato, a los estudiantes de Mittens y a las bolitas de estambre</p>
 									<a href="#" class="btn btn-outline-light">Quiero ser orador</a>
-									<button class="btn btn-success btn-platzi" data-bs-toggle="modal" data-bs-target="#buyTicketsModal"		>Comprar tickets</button>
+									<button class="btn btn-success btn-platzi" data-bs-toggle="modal"
+										data-bs-target="#buyTicketsModal">Comprar tickets</button>
 								</div>
 							</div>
 						</div>
@@ -238,15 +239,27 @@
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+					<h1 class="modal-title fs-5" id="exampleModalLabel">Comprar tickets</h1>
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
 				<div class="modal-body">
-					...
+					<div class="row row-gap-3">
+						<form class="col-12">
+							<div class="input-group flex-nowrap">
+								<label for="username" class="form-label"></label>
+								<span class="input-group-text" id="addon-wrapping">@</span>
+								<input id="username" type="text" class="form-control" placeholder="Username" aria-label="Username"
+									aria-describedby="addon-wrapping">
+							</div>
+						</form>
+						<div class="col-12">
+							<div class="alert alert-warning" role="alert">Recibirás un correo de confirmación si sales sorteado</div>
+						</div>
+					</div>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-					<button type="button" class="btn btn-primary">Save changes</button>
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+					<button type="button" class="btn btn-platzi">Comprar</button>
 				</div>
 			</div>
 		</div>
